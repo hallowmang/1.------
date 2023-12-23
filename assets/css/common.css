@@ -1,0 +1,61 @@
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+}
+
+/* 이미지가 나오고싶으면, 여기에 추가해주세요 */
+
+/* sp-bg */
+.container .setting-group .home-set::before,
+.container .setting-group .move-top::before,
+.footer .footer-inner .notice-area .link-all::after,
+.sc-whale .whale-box .link-whale .ic-whale,
+.sc-widgetboard .wide-group .wide-title .ic-clip,
+.sc-widgetboard .content-box4 .dic-search::after,
+.sc-widgetboard .content-box3 .papago-box .ic-logo,
+.sc-widgetboard .content-box3::before,
+.sc-widgetboard .widget-area .mobile-more::after,
+.sc-widgetboard .widget-area .mobile-more::before,
+.sc-stock .stock-area .content-group .box-left .stock-info .stock-gap .ic-status,
+.sc-stock .stock-area .content-group .box-right .link-more::after,
+.sc-stock .stock-area .content-group .box-right .link-name .price .ic-status,
+.sc-stock .stock-area .stock-header .stock-aside .refresh::before,
+.sc-stock .stock-area .stock-header .btn-info::before,
+.sc-weather .weather-header .weather-compare::before,
+.sc-news .group-control .pagingView .gallary-view,
+.sc-news .group-control .pagingView .list-view,
+.sc-news .group-issue .issue-area .btn-all .ic-triangle,
+.sc-login .link-login::before,
+.header .util-area > *::after,
+.header .group-nav .nav-item [class*="ic-"]::after,
+.header .group-nav .nav-item [class*="ic-"]::before,
+.header .group-search button::before {
+  background-image: url(../images/sp-bg.png);
+  background-repeat: no-repeat;
+  background-size: 435px auto;
+}
+
+/* sp-main */
+.sc-shopping .shopping-control [class*="btn-"]::before,
+.sc-shopping .shopping-commerce .brand-block .block-title::after,
+.sc-news .group-control [class*="btn-"]::before {
+  background-image: url(../images/sp-main.png);
+  background-repeat: no-repeat;
+  background-size: 134px auto;
+}
+
+/* sp-weather */
+.sc-weather
+  .weather-content
+  .daily-info
+  .info-area
+  .info-item
+  .ic-weather::before,
+.sc-weather .weather-content .daily .daily-sun::before {
+  background-image: url(../images/sp-weather.png);
+  background-repeat: no-repeat;
+}
